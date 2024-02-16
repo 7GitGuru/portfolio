@@ -1,17 +1,7 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiPython,
-  DiHtml5,
-  DiCss3,
-} from "react-icons/di";
-import {
-  SiTypescript,
-  SiTailwindcss,
-} from "react-icons/si";
+import { DiJavascript1, DiReact, DiNodejs, DiPython, DiHtml5, DiCss3, DiBootstrap } from "react-icons/di";
+// import { SiTypescript, SiTailwindcss } from "react-icons/si";
 
 function Techstack() {
   return (
@@ -34,12 +24,12 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiCss3 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <DiBootstrap />
+      </Col> */}
     </Row>
   );
 }
