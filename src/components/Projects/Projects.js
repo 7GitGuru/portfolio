@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import Gradient from "../../Assets/Projects/gradient.gif";
+import Crypto from "../../Assets/Projects/crypto.png";
 import Converter from "../../Assets/Projects/image.png";
 import Manager from "../../Assets/Projects/task-manager.png";
 import Shortener from "../../Assets/Projects/shortener.png";
@@ -55,6 +56,17 @@ function Projects() {
               description="This Telegram bot is designed to shorten URLs using the TinyURL service."
               ghLink="https://github.com/7GitGuru/TinyUrlrobot"
               demoLink="https://t.me/tinyURLrobot"
+            />
+          </Col>
+
+          <Col md={5} className="project-card">
+            <ProjectCard
+              imgPath={Crypto}
+              isBlog={false}
+              title="💲Crypto Tracker"
+              description="This project is a tracker and notifier that constantly monitors the prices of the cryptocurrencies you specify."
+              ghLink="https://github.com/7GitGuru/crypto-tracker"
+              demoLink=""
             />
           </Col>
         </Row>
