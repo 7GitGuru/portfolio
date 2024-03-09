@@ -54,7 +54,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://t.me/Cod3rX"
+                  href="https://t.me/+88806532497"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -74,7 +74,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://mail.google.com/mail/?view=cm&source=mailto&to=Cod3rX@proton.me"
+                  href="https://mail.google.com/mail/?view=cm&source=mailto&to=Bohd4n@proton.me"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
@@ -82,16 +82,6 @@ function Home2() {
                   <FaEnvelope  />
                 </a>
               </li>
-              {/* <li className="social-icons">
-                <a
-                  href="https://www.buymeacoffee.com/bohd4n"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <SiBuymeacoffee />
-                </a>
-              </li> */}
             </ul>
           </Col>
         </Row>
