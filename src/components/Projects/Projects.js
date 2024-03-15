@@ -4,9 +4,9 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 // import Gradient from "../../Assets/Projects/gradient.gif";
 import Crypto from "../../Assets/Projects/crypto.png";
-import Converter from "../../Assets/Projects/image.png";
+import Converter from "../../Assets/Projects/converter.png";
 import Manager from "../../Assets/Projects/task-manager.png";
-import Shortener from "../../Assets/Projects/shortener.png";
+// import Shortener from "../../Assets/Projects/shortener.png";
 
 function Projects() {
   return (
@@ -22,7 +22,9 @@ function Projects() {
               imgPath={Converter}
               isBlog={false}
               title="💱Currency Converter"
-              description="This project is a Currency Converter web application developed using Python and Flask. The primary purpose of the application is to enable users to perform real-time currency conversions based on up-to-date exchange rates."
+              description="This project is a Currency Converter web application developed using Python and Flask. 
+              The primary purpose of the application is to enable users to perform 
+              real-time currency conversions based on up-to-date exchange rates."
               ghLink="https://github.com/7GitGuru/Currency-Converter"
             />
           </Col>
@@ -32,7 +34,9 @@ function Projects() {
               imgPath={Manager}
               isBlog={false}
               title="📑Task Manager"
-              description="This project is a Task Manager web application built using Python and Flask framework, designed to manage tasks by adding, completing, and deleting them. The application also generates an Excel report of the tasks."
+              description="This project is a Task Manager web application built using Python and Flask framework,
+               designed to manage tasks by adding, completing, and deleting them. 
+               The application also generates an Excel report of the tasks."
               ghLink="https://github.com/7GitGuru/Task-Manager"
             />
           </Col>
@@ -48,7 +52,7 @@ function Projects() {
             />
           </Col> */}
 
-          <Col md={5} className="project-card">
+          {/* <Col md={5} className="project-card">
             <ProjectCard
               imgPath={Shortener}
               isBlog={false}
@@ -57,16 +61,18 @@ function Projects() {
               ghLink="https://github.com/7GitGuru/TinyUrlrobot"
               demoLink="https://t.me/tinyURLrobot"
             />
-          </Col>
+          </Col> */}
 
           <Col md={5} className="project-card">
             <ProjectCard
               imgPath={Crypto}
               isBlog={false}
               title="💲Crypto Tracker"
-              description="This project is a tracker and notifier that constantly monitors the prices of the cryptocurrencies you specify."
+              description="CryptoTracker is a universal tool designed to track cryptocurrency prices on exchanges in real time. 
+              With CryptoTracker, users can track cryptocurrency prices on popular exchanges not only through the command line,
+              but also through Telegram and Discord bots."
               ghLink="https://github.com/7GitGuru/crypto-tracker"
-              demoLink=""
+              demoLink="https://pypi.org/project/coinprice/"
             />
           </Col>
         </Row>
