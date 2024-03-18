@@ -69,8 +69,8 @@ function Projects() {
               isBlog={false}
               title="💲Crypto Tracker"
               description="CryptoTracker is a universal tool designed to track cryptocurrency prices on exchanges in real time. 
-              With CryptoTracker, users can track cryptocurrency prices on popular exchanges not only through the command line,
-              but also through Telegram and Discord bots."
+              With CryptoTracker, users can track cryptocurrency prices on popular exchanges not only through the command line, 
+              but also through the Telegram bot."
               ghLink="https://github.com/7GitGuru/crypto-tracker"
               demoLink="https://pypi.org/project/coinprice/"
             />
