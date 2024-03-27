@@ -72,7 +72,7 @@ function Projects() {
               With CryptoTracker, users can track cryptocurrency prices on popular exchanges not only through the command line, 
               but also through the Telegram bot."
               ghLink="https://github.com/7GitGuru/crypto-tracker"
-              demoLink="https://pypi.org/project/coinprice/"
+              demoLink="https://cryptotrack3r.vercel.app/"
             />
           </Col>
         </Row>
