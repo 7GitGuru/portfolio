@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { FaEnvelope, FaGithub, FaInstagram, FaTelegram } from "react-icons/fa";
+import { FaEnvelope, FaGithub, FaTelegram } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -60,16 +60,6 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaTelegram />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/07bohdan/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaInstagram />
                 </a>
               </li>
               <li className="social-icons">
