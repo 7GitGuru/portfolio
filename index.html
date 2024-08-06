@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.jpg"
+            type="image/x-icon" class="favicon">
+
+        <!--=============== REMIX ICONS ===============-->
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+            rel="stylesheet">
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Mysteriza</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__perfil">
+                            <img src="assets/img/image.png" alt="">
+                        </div>
+                    </div>
+                    <h2 class="profile__name">Bohdan Kovalchuk</h2>
+                    <h2 class="profile__profession">Fullstack & Python Developer</h2>
+                    <ul class="profile__social">
+                        <li><a href="https://www.cod3rx.com"
+                                target="_blank" class="profile__social-link">
+                                <i class="ri-code-box-fill"></i>
+                            </a>
+                        </li>
+                        <!-- <li><a
+                                href="https://www.linkedin.com/in/rifqifachrizasukmana"
+                                target="_blank" class="profile__social-link">
+                                <i class="ri-linkedin-box-line"></i>
+                            </a>
+                        </li> -->
+                        <li><a href="https://github.com/7GitGuru"
+                                target="_blank" class="profile__social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">1+</h3>
+                        <p class="profile__info-description">
+                            Year of <br> experience
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">50+</h3>
+                        <p class="profile__info-description">
+                            Completed <br> projects
+                        </p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">20+</h3>
+                        <p class="profile__info-description">
+                            Satisfied <br> customers
+                        </p>
+                    </div>
+                </div>
+                <div class="profile__buttons">
+                    <a href="assets/pdf/Resume Bohdan.pdf" class="button"
+                        target="_blank">
+                        Download CV <i class="ri-file-pdf-line"></i>
+                    </a>
+                    <div class="profile__buttons-small">
+                        <a
+                            href="mailto:Bohd4n@proton.me"
+                            target="_blank"
+                            class="button button__small button__gray">
+                            <i class="ri-mail-fill"></i>
+                        </a>
+                        <a href="https://t.me/B7XX7B" target="_blank"
+                            class="button button__small button__gray">
+                            <i class="ri-telegram-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="filters__button filter-tab-active"
+                        data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="filters__button" data-target="#skills">
+                        Experiences
+                    </button>
+                </ul>
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__active"
+                        data-content
+                        id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/converter.png" alt
+                                class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Currency converter web app using Flask</h3>
+                                    <a
+                                        href="https://github.com/7GitGuru/Currency-Converter"
+                                        class="projects__button button button__small"
+                                        target="_blank">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/task-manager.png" alt
+                                class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Web</span>
+                                    <h3 class="projects__title">Python Task Manager using Flask</h3>
+                                    <a
+                                        href="https://github.com/7GitGuru/Task-Manager"
+                                        class="projects__button button button__small"
+                                        target="_blank">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="projects__card">
+                            <img src="assets/img/crypto.png" alt
+                                class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">PyPi module</span>
+                                    <h3 class="projects__title">WiFi Password
+                                        Viewer</h3>
+                                    <a
+                                        href="https://github.com/7GitGuru/crypto-tracker"
+                                        class="projects__button button button__small"
+                                        target="_blank">
+                                        <i class="ri-github-fill"></i>
+                                    </a>
+                                    <a
+                                        href="https://cryptotrack3r.vercel.app/"
+                                        class="projects__button button button__small"
+                                        target="_blank">
+                                        <i class="ri-links-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <!-- <article class="projects__card">
+                            <img src="assets/img/" alt
+                                class="projects__img">
+
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle"></span>
+                                    <h3 class="projects__title"></h3>
+                                    <a
+                                        href=""
+                                        class="projects__button button button__small"
+                                        target="_blank">
+                                        <i class="ri-links-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article> -->
+                    </div>
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid" data-content id="skills">
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Code
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-javascript-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">JS</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Node.js</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-reactjs-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">React</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Python</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-html5-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">HTML</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">TypeScript</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__area">
+                            <h3 class="skills__title">
+                                Tools
+                            </h3>
+
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-git-branch-fill"></i>
+                                        <div>
+                                            <h3 class="skills__name">GIT</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-github-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">GitHub</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Docker</h3>
+                                            <span class="skills__level">Intermediate</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-database-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Databases</h3>
+                                            <span class="skills__level">Intermediate</span>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="skills__data">
+                                        <i class="ri-terminal-box-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">CMD</h3>
+                                            <span class="skills__level">Intermediate</span>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+                                        <div>
+                                            <h3 class="skills__name">Password
+                                                Cracking</h3>
+                                            <span class="skills__level">Basic</span>
+
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span class="footer__copy">
+                &#169; Bohdan Kovalchuk. All rights reserved.
+            </span>
+        </footer>
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
